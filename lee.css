@@ -1,0 +1,95 @@
+ *{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+html{
+  font-size: 10px;
+  font-family: "Roboto Cn" , sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color:#eee;
+}
+.container{
+  max-width:120rem;
+  width:90%;
+  margin:0 auto;
+}
+.logo{
+  color:grey;
+  text-transform: uppercase;
+}
+
+body{
+width:100%;
+height:100vh;
+background-image: url(https://cutewallpaper.org/21/dark-hd-wallpapers-1080p/Cool-Dark-Backgrounds-1920x1080-Hd-Plain-Black-Wallpapers-.jpg);
+background-size: cover;
+
+}
+
+.nav-bar{
+  padding-top:5rem;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  text-transform: uppercase;
+  font-size:1.6 rem;
+}
+
+.logo{
+  font-size:7rem;
+  font-weight: 1000;
+
+}
+
+.logo span{
+  color:crimson;
+}
+
+.nav-bar ul{
+  display:flex;
+}
+
+.nav-bar ul li{
+  list-style:none;
+  display: flex;
+}
+
+.nav-bar ul li a{
+  padding:1rem 0;
+  margin: 0 3rem;
+  position:relative;
+  letter-spacing: 2px;
+  justify-content: space-between;
+  font-size:3rem;
+
+
+
+}
+
+ul{
+  margin:0;
+  padding:0;
+  overflow:hidden;
+}
+
+.nav-bar li{
+  float:center;
+}
+
+.nav-bar li a{
+  display:block;
+  text-align: center;
+  padding:16px;
+  text-decoration: none;
+}
+
+.content{
+    font-size: 30px;
+    color:lavender;
+    font-family: serif;
+}
